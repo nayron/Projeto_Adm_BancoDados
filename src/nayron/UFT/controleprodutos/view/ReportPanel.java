@@ -89,7 +89,7 @@ public class ReportPanel extends JPanel implements PrintableInterface{
 	private JButton _jButtonGraphic;
 	private JButton _jButtonImprimir;
 	
-	private String[] _itensCombo = {" ","Ano","M�s","Periodo","Listar todas"};
+	private String[] _itensCombo = {" ","Ano","Mes","Periodo","Listar todas"};
 	private VendasBI vendasBI;
 	
 	public ReportPanel() {
@@ -622,7 +622,7 @@ public class ReportPanel extends JPanel implements PrintableInterface{
     @Override
     public void printJTable(){
 		try {
-			MessageFormat headerFormat = new MessageFormat("Relat�rio - Vendas");
+			MessageFormat headerFormat = new MessageFormat("Relatorio - Vendas");
 			MessageFormat footerFormat = new MessageFormat("- {0} -");
 			getJTableItens().print(JTable.PrintMode.FIT_WIDTH, headerFormat, footerFormat);
 		} catch (PrinterException pe) {
