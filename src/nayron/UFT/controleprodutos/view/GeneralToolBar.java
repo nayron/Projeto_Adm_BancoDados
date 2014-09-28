@@ -20,11 +20,11 @@ public class GeneralToolBar extends JToolBar{
 		super();
 		setRollover(false);	
 		setFloatable(false);
-		setBackground(Color.gray);
+		setBackground(Color.LIGHT_GRAY);
 		
 		JButton jButtonCadastrar = new JButton("Cadastrar Item");
-		jButtonCadastrar.setBackground(Color.gray);
-		jButtonCadastrar.setForeground(Color.black);
+		jButtonCadastrar.setBackground(Color.LIGHT_GRAY);
+		jButtonCadastrar.setForeground(Color.red);
 		jButtonCadastrar.setIcon(new ImageIcon(getClass().getResource("/images/cadrastrar22.png")));
 		jButtonCadastrar.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent evt){
@@ -33,8 +33,8 @@ public class GeneralToolBar extends JToolBar{
 		});
 		
 		JButton jButtonPesquisar = new JButton("Pesquisar Item");
-		jButtonPesquisar.setBackground(Color.gray);
-		jButtonPesquisar.setForeground(Color.black);
+		jButtonPesquisar.setBackground(Color.LIGHT_GRAY);
+		jButtonPesquisar.setForeground(Color.red);
 		jButtonPesquisar.setIcon(new ImageIcon(getClass().getResource("/images/pesquisar22.png")));
 		jButtonPesquisar.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent evt){
@@ -47,8 +47,8 @@ public class GeneralToolBar extends JToolBar{
 		});
 		
 		JButton jButtonEstoque = new JButton("Atualização de Estoque");
-		jButtonEstoque.setBackground(Color.gray);
-		jButtonEstoque.setForeground(Color.black);
+		jButtonEstoque.setBackground(Color.LIGHT_GRAY);
+		jButtonEstoque.setForeground(Color.red);
 		jButtonEstoque.setIcon(new ImageIcon(getClass().getResource("/images/estoque22.png")));
 		jButtonEstoque.addActionListener(new ActionListener(){
 
@@ -58,10 +58,10 @@ public class GeneralToolBar extends JToolBar{
 			
 		});
 		
-		JButton jButtonVendas = new JButton("Monitor de Vendas");
-		jButtonVendas.setBackground(Color.gray);
-		jButtonVendas.setForeground(Color.black);
-		jButtonVendas.setIcon(new ImageIcon(getClass().getResource("/images/vendas22.png")));
+		JButton jButtonVendas = new JButton("Registrar Vendas");
+		jButtonVendas.setBackground(Color.LIGHT_GRAY);
+		jButtonVendas.setForeground(Color.red);
+		jButtonVendas.setIcon(new ImageIcon(getClass().getResource("/images/vendas2.png")));
 		jButtonVendas.addActionListener(new ActionListener(){
 
 			public void actionPerformed(ActionEvent e) {
@@ -71,8 +71,8 @@ public class GeneralToolBar extends JToolBar{
 		});
 		
 		JButton jButtonRelatorio = new JButton("Relatório das Vendas");
-		jButtonRelatorio.setBackground(Color.gray);
-		jButtonRelatorio.setForeground(Color.black);
+		jButtonRelatorio.setBackground(Color.LIGHT_GRAY);
+		jButtonRelatorio.setForeground(Color.red);
 		jButtonRelatorio.setIcon(new ImageIcon(getClass().getResource("/images/relatorio22.png")));
 		jButtonRelatorio.addActionListener(new ActionListener(){
 
@@ -83,9 +83,9 @@ public class GeneralToolBar extends JToolBar{
 		});
 		
 		JButton jButtonSair = new JButton("Sair");
-		jButtonSair.setBackground(Color.gray);
-		jButtonSair.setForeground(Color.black);
-		jButtonSair.setIcon(new ImageIcon(getClass().getResource("/images/sair.png")));
+		jButtonSair.setBackground(Color.LIGHT_GRAY);
+		jButtonSair.setForeground(Color.red);
+		jButtonSair.setIcon(new ImageIcon(getClass().getResource("/images/sair22.png")));
 		jButtonSair.addActionListener(new ActionListener(){
 
 			public void actionPerformed(ActionEvent e) {

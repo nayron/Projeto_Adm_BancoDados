@@ -42,11 +42,11 @@ public class PrincipalFrame extends JFrame{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setExtendedState(JFrame.MAXIMIZED_BOTH);			
 		setMinimumSize(new Dimension(600,400));
-		//LabelImage labelImage = new LabelImage("/images/Controle2.png");
-		//setView(labelImage);
+		LabelImage labelImage = new LabelImage("/images/Controle22.png");
+		setView(labelImage);
 		//labelImage.updateUI();
 		setVisible(true);
-		setLookAndFeel("Legacy");
+		setLookAndFeel("OfficeBlue2007");
 	}
 	
 	public static JFrame getInstance(){

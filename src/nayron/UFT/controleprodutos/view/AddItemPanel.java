@@ -401,7 +401,7 @@ public class AddItemPanel extends JPanel {
 	private JLabel getJLabelTipo() {
 		if (_jLabelTipo == null) {
 			_jLabelTipo = new JLabel();
-			_jLabelTipo.setText("Tipo:");
+			_jLabelTipo.setText("Codigo:");
 		}
 		return _jLabelTipo;
 	}

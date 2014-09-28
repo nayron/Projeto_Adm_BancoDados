@@ -72,7 +72,7 @@ public class GeneralMenuBar extends JMenuBar{
 	public GeneralMenuBar(){
 		super();	
 		
-		setBackground(Color.gray);
+		setBackground(Color.LIGHT_GRAY);
 		
 		_jMenuArquivo = new JMenu("Arquivo");			
 		_jMenuArquivo.add(getJMenuItemImprimir());
@@ -351,8 +351,8 @@ public class GeneralMenuBar extends JMenuBar{
 			_jTextAreaSobre = new JTextArea(5,40);		
 			_jTextAreaSobre.setText(
 					
-				"Programa desenvolvido por Náyron, \n" +
-				"Jucelino e Joel - alunos do curso de Ciências da Computação \n" +
+				"Programa desenvolvido por Náyron Dos Anjos Seilert \n" +
+				"e Joel - alunos do curso de Ciências da Computação \n" +
 				"da Universidade federal do Tocantins. \n" +
 				"Palmas - TO, Setembro de 2014"
 				
