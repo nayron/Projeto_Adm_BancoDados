@@ -33,7 +33,7 @@ public class PrincipalFrame extends JFrame{
 		setJMenuBar(getGeneralMenuBar());
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setExtendedState(JFrame.MAXIMIZED_BOTH);			
-		setMinimumSize(new Dimension(800,600));
+		setMinimumSize(new Dimension(1280,740));
 		LabelImage labelImage = new LabelImage("/images/Controle22.png");
 		setView(labelImage);
 		//labelImage.updateUI();
