@@ -25,7 +25,7 @@ public class GeneralToolBar extends JToolBar{
 		JButton jButtonCadastrar = new JButton("Cadastrar Item");
 		jButtonCadastrar.setBackground(Color.LIGHT_GRAY);
 		jButtonCadastrar.setForeground(Color.red);
-		jButtonCadastrar.setIcon(new ImageIcon(getClass().getResource("/images/cadrastrar22.png")));
+		jButtonCadastrar.setIcon(new ImageIcon(getClass().getResource("/images/cadrastrar222.png")));
 		jButtonCadastrar.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent evt){
 				viewCadastraItem();
@@ -35,7 +35,7 @@ public class GeneralToolBar extends JToolBar{
 		JButton jButtonPesquisar = new JButton("Pesquisar Item");
 		jButtonPesquisar.setBackground(Color.LIGHT_GRAY);
 		jButtonPesquisar.setForeground(Color.red);
-		jButtonPesquisar.setIcon(new ImageIcon(getClass().getResource("/images/pesquisar22.png")));
+		jButtonPesquisar.setIcon(new ImageIcon(getClass().getResource("/images/pesquisar.png")));
 		jButtonPesquisar.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent evt){
                             try {
@@ -49,7 +49,7 @@ public class GeneralToolBar extends JToolBar{
 		JButton jButtonEstoque = new JButton("Atualização de Estoque");
 		jButtonEstoque.setBackground(Color.LIGHT_GRAY);
 		jButtonEstoque.setForeground(Color.red);
-		jButtonEstoque.setIcon(new ImageIcon(getClass().getResource("/images/estoque22.png")));
+		jButtonEstoque.setIcon(new ImageIcon(getClass().getResource("/images/estoque.png")));
 		jButtonEstoque.addActionListener(new ActionListener(){
 
 			public void actionPerformed(ActionEvent e) {
