@@ -9,21 +9,13 @@ import javax.swing.JPanel;
 import javax.swing.UIManager;
 
 import org.jvnet.substance.SubstanceLegacyDefaultLookAndFeel;
-import org.jvnet.substance.skin.SubstanceBusinessLookAndFeel;
-import org.jvnet.substance.skin.SubstanceCremeLookAndFeel;
-import org.jvnet.substance.skin.SubstanceModerateLookAndFeel;
-import org.jvnet.substance.skin.SubstanceNebulaLookAndFeel;
 import org.jvnet.substance.skin.SubstanceRavenLookAndFeel;
 
 import nayron.UFT.controleprodutos.components.LabelImage;
-import javax.swing.SwingUtilities;
 import org.jvnet.substance.skin.SubstanceEmeraldDuskLookAndFeel;
 import org.jvnet.substance.skin.SubstanceMagmaLookAndFeel;
-import org.jvnet.substance.skin.SubstanceMistSilverLookAndFeel;
 import org.jvnet.substance.skin.SubstanceOfficeBlue2007LookAndFeel;
 import org.jvnet.substance.skin.SubstanceOfficeSilver2007LookAndFeel;
-import org.jvnet.substance.skin.SubstanceRavenGraphiteLookAndFeel;
-import org.jvnet.substance.skin.SubstanceSaharaLookAndFeel;
 
 public class PrincipalFrame extends JFrame{
 	
@@ -35,13 +27,13 @@ public class PrincipalFrame extends JFrame{
 	private static GeneralToolBar _generalToolBar;
 	
 	
-	private PrincipalFrame(){
+	public PrincipalFrame(){
 		super("Controle de Estoque");
 		setContentPane(getJPanelMain());
 		setJMenuBar(getGeneralMenuBar());
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setExtendedState(JFrame.MAXIMIZED_BOTH);			
-		setMinimumSize(new Dimension(600,400));
+		setMinimumSize(new Dimension(800,600));
 		LabelImage labelImage = new LabelImage("/images/Controle22.png");
 		setView(labelImage);
 		//labelImage.updateUI();

@@ -109,7 +109,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemImprimir(){
 		if(_jMenuItemImprimir == null){
 			_jMenuItemImprimir = new JMenuItem("Imprimir");
-			_jMenuItemImprimir.setBackground(Color.gray);
+			_jMenuItemImprimir.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemImprimir.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					_printable.printJTable();					
@@ -122,7 +122,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemSair(){
 		if(_jMenuItemSair == null){
 			_jMenuItemSair = new JMenuItem("Sair");
-			_jMenuItemSair.setBackground(Color.gray);
+			_jMenuItemSair.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemSair.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					System.exit(0);					
@@ -135,7 +135,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemCalc(){
 		if(_jMenuItemCalc == null){
 			_jMenuItemCalc = new JMenuItem("Calculadora");
-			_jMenuItemCalc.setBackground(Color.gray);
+			_jMenuItemCalc.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemCalc.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					showCalc();					
@@ -148,7 +148,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemAdicionaItem(){
 		if(_jMenuItemAdicionaItem == null){
 			_jMenuItemAdicionaItem = new JMenuItem("Adicionar Item");
-			_jMenuItemAdicionaItem.setBackground(Color.gray);
+			_jMenuItemAdicionaItem.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemAdicionaItem.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					PrincipalFrame.setView(new AddItemPanel());					
@@ -161,7 +161,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemVendaItem(){
 		if(_jMenuItemVendaItem == null){
 			_jMenuItemVendaItem = new JMenuItem("Registrar Venda");
-			_jMenuItemVendaItem.setBackground(Color.gray);
+			_jMenuItemVendaItem.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemVendaItem.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					PrincipalFrame.setView(new SalesPanel());					
@@ -174,7 +174,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemPesquisaItem(){
 		if(_jMenuItemPesquisaItem == null){
 			_jMenuItemPesquisaItem = new JMenuItem("Pesquisar Item");
-			_jMenuItemPesquisaItem.setBackground(Color.gray);
+			_jMenuItemPesquisaItem.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemPesquisaItem.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
                                     try {					
@@ -191,7 +191,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemEstoqueItem(){
 		if(_jMenuItemAtualizarItem == null){
 			_jMenuItemAtualizarItem = new JMenuItem("Atualizar Estoque");
-			_jMenuItemAtualizarItem.setBackground(Color.gray);
+			_jMenuItemAtualizarItem.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemAtualizarItem.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					PrincipalFrame.setView(new StockPanel());					
@@ -204,7 +204,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemRelatorioVendas(){
 		if(_jMenuItemRelatorioVendas == null){
 			_jMenuItemRelatorioVendas = new JMenuItem("Relatorio Vendas");
-			_jMenuItemRelatorioVendas.setBackground(Color.gray);
+			_jMenuItemRelatorioVendas.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemRelatorioVendas.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					PrincipalFrame.setView(new ReportPanel());					
@@ -217,7 +217,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemSkin1(){
 		if(_jMenuItemSkin1 == null){
 			_jMenuItemSkin1 = new JMenuItem("Esmeralda");
-			_jMenuItemSkin1.setBackground(Color.gray);
+			_jMenuItemSkin1.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemSkin1.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					defineLookAndFeel("Esmeralda");					
@@ -230,7 +230,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemSkin2(){
 		if(_jMenuItemSkin2 == null){
 			_jMenuItemSkin2 = new JMenuItem("OfficeBlue2007");
-			_jMenuItemSkin2.setBackground(Color.gray);
+			_jMenuItemSkin2.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemSkin2.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					defineLookAndFeel("OfficeBlue2007");					
@@ -243,7 +243,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemSkin3(){
 		if(_jMenuItemSkin3 == null){
 			_jMenuItemSkin3 = new JMenuItem("Legacy");
-			_jMenuItemSkin3.setBackground(Color.gray);
+			_jMenuItemSkin3.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemSkin3.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					defineLookAndFeel("Legacy");					
@@ -256,7 +256,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemSkin4(){
 		if(_jMenuItemSkin4 == null){
 			_jMenuItemSkin4 = new JMenuItem("OfficeSilver2007");
-			_jMenuItemSkin4.setBackground(Color.gray);
+			_jMenuItemSkin4.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemSkin4.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					defineLookAndFeel("OfficeSilver2007");					
@@ -269,7 +269,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemSkin5(){
 		if(_jMenuItemSkin5 == null){
 			_jMenuItemSkin5 = new JMenuItem("Magma");
-			_jMenuItemSkin5.setBackground(Color.gray);
+			_jMenuItemSkin5.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemSkin5.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					defineLookAndFeel("Magma");					
@@ -282,7 +282,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemSkin6(){
 		if(_jMenuItemSkin6 == null){
 			_jMenuItemSkin6 = new JMenuItem("Raven");
-			_jMenuItemSkin6.setBackground(Color.gray);
+			_jMenuItemSkin6.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemSkin6.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					defineLookAndFeel("Raven");					
@@ -295,7 +295,7 @@ public class GeneralMenuBar extends JMenuBar{
 	private JMenuItem getJMenuItemSobre(){
 		if(_jMenuItemSobre == null){
 			_jMenuItemSobre = new JMenuItem("Sobre");
-			_jMenuItemSobre.setBackground(Color.gray);
+			_jMenuItemSobre.setBackground(Color.LIGHT_GRAY);
 			_jMenuItemSobre.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent e) {
 					showSobre();					
