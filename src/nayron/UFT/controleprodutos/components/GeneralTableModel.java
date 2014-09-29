@@ -5,8 +5,7 @@ import javax.swing.table.DefaultTableModel;
 /**
  * Classe que extende de DefaultTableModel e implementa um metodo
  * para ativar e desativar a edicao da table mas sempre permitindo 
- * a selecao das linhas da mesma.
- * @author Luis Antonio Tavares 
+ * a selecao das linhas da mesma. 
  */
 public class GeneralTableModel extends DefaultTableModel {
 	

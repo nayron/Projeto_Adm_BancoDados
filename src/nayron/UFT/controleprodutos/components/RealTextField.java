@@ -45,7 +45,7 @@ public class RealTextField extends JTextField implements KeyListener{
 	}
 	
 	/**
-	 * Abaixo segue alguns m�todos chamados pelo keyReleased para formatar
+	 * Abaixo segue alguns metodos chamados pelo keyReleased para formatar
 	 * o dado presente no TextField para o formato do real.
 	 * @param value
 	 * @return

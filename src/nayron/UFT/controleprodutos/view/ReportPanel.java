@@ -1,9 +1,3 @@
-/*
- * SearchPanel.java
- *
- * Created on August 6, 2008, 5:39 PM
- */
-
 package nayron.UFT.controleprodutos.view;
 
 import java.awt.BorderLayout;
