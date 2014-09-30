@@ -2,7 +2,7 @@ package nayron.UFT.controleprodutos.view;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-
+import javax.swing.JFrame; 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -39,6 +39,8 @@ public class PrincipalFrame extends JFrame{
 		//labelImage.updateUI();
 		setVisible(true);
 		setLookAndFeel("OfficeBlue2007");
+               
+                
 	}
 	
 	public static JFrame getInstance(){
