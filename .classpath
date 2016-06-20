@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/substance.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-0.9.4.jar"/>
+	<classpathentry kind="lib" path="lib/postgresql-8.3-603.jdbc4.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.14.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.11.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.11-experimental.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
